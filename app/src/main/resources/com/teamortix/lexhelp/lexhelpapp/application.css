@@ -1,0 +1,64 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#root {
+    -fx-background-image: url("./images/lexhelp-bg.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 1728 646;
+    -fx-background-position: center center;
+}
+
+#mic-Button {
+    -fx-background-color: #5A676B;
+    -fx-border-radius: 1000px;
+    -fx-background-radius: 1000px;
+    -fx-min-width: 90;
+    -fx-min-height: 90;
+}
+
+#mic-Button.active {
+    -fx-background-color: #94D6EB;
+    -fx-cursor: hand;
+}
+
+#mic-Button.active:hover {
+    -fx-border-color: rgba(79, 117, 154, 1);
+    -fx-border-width: 3;
+    -fx-border-style: solid;
+}
+
+.buttons {
+    -fx-min-width: 230;
+    -fx-min-height: 240;
+    -fx-padding: 30px;
+    -fx-border-insets: 30px;
+    -fx-background-insets: 30px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 20;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+#uploadPDFBtn {
+    -fx-graphic: url("./images/plus_icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-content-display: top;
+    -fx-border-style: dashed;
+    -fx-border-color: rgba(79, 117, 154, 1);
+    -fx-border-width: 5;
+    -fx-font-size: 18px;
+    -fx-background-color: rgba(67, 189, 217, 0.1);
+    -fx-text-fill: #4F759A;
+}
+
+#uploadPDFBtn:hover {
+    -fx-border-style: solid;
+    -fx-background-color: rgba(67, 189, 217, 0.2);
+}
+
+#uploadedBtn {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-text-origin: bottom;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-background-color: rgba(79, 117, 154, 0.3);
+    -fx-label-padding: 0 0 10px 0;
+}

@@ -1,0 +1,12 @@
+.Left {
+  max-height: 88vh;
+  width: 65%;
+  overflow-y: scroll;
+  margin: 0 auto;
+}
+
+.Right {
+  max-height: 88vh;
+  width: 35%;
+  background: #f3f3f3;
+}

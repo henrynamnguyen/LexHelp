@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="240.0" prefWidth="460.0" style="-fx-background-color: #186F8B;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.teamortix.lexhelp.lexhelpapp.CodeSelector">
+   <children>
+      <TextField fx:id="input" accessibleText="Insert your 6 digit code" layoutX="67.0" layoutY="96.0" onAction="#load" prefHeight="36.0" prefWidth="327.0" promptText="123 456" style="-fx-border-radius: 0px; -fx-border-color: 0; -fx-background-color: #F3F3F3;">
+         <font>
+            <Font name="Noto Sans Thai UI Regular" size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="67.0" layoutY="45.0" text="Enter Code" textFill="WHITE">
+         <font>
+            <Font name="Noto Sans Thai UI Black" size="24.0" />
+         </font>
+      </Label>
+      <Button accessibleText="Load PDF from code" layoutX="303.0" layoutY="153.0" mnemonicParsing="false" onAction="#load" prefHeight="43.0" prefWidth="91.0" style="-fx-background-color: #F3F3F3; -fx-border-radius: 54px; -fx-background-radius: 50px; -fx-text-fill: #1F6D91;" text="Load">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
