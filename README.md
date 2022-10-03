@@ -1,4 +1,9 @@
-Second prize of [Amazon HackTO](https://www.hackathonsinternational.com/hackto). Demo link: https://www.youtube.com/watch?v=F0293p2lDxY
+Second prize of [Amazon HackTO](https://www.hackathonsinternational.com/hackto). Demo link: https://www.youtube.com/watch?v=F0293p2lDxY.
+Contributors:
+Hamza Ali
+Jenna Xiao
+Zohair Ahmed
+Henry Nam Nguyen
 ## Usage
 
 Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
